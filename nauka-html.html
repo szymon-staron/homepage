@@ -1,83 +1,70 @@
 <!DOCTYPE html>
 <html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stronka Szymonka</title>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Szymonek</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-    <link href="style.css" rel="stylesheet" type="text/css">
-
-</head>
-
-
-<body>
-
+  <body>
     <header>
-        <nav>
-            <a href="index.html">Strona Główna</a>
-            <a href="nauka-html.html">Nauka HTML</a>
-            <a href="kontakt-html.html">Kontakt</a>
-            <a href="obrazek-kot.html">Kotek</a>
-        </nav>
+      <nav class="navigation">
+        <a class="navigation__link" href="index.html">Strona Główna</a>
+        <a class="navigation__link" href="nauka-html.html">Nauka HTML</a>
+        <a class="navigation__link" href="kontakt-html.html">Kontakt</a>
+        <a class="navigation__link" href="obrazek-kot.html">Kotek</a>
+      </nav>
     </header>
     <main>
-        <header id="Kodzik">
-            <h1 class="heading-style"> Szymon Staroń Uczę się klepać kodzik </h1>
-            <img style="width: 10% ;
-            height:auto ;" src="myszkamiki.jpg" alt="Myszka miki">
-        </header>
-        <section id="NOTATKI">
+      <header id="Kodzik">
+        <h1 class="heading-style">Szymon Staroń Uczę się klepać kodzik</h1>
+        <img
+          style="width: 10%; height: auto;"
+          src="myszkamiki.jpg"
+          alt="Myszka miki"
+        />
+      </header>
+      <section id="NOTATKI">
+        <h2 class="heading-style">Notatki z kursu</h2>
+        <p>
+          Tutaj będę starał umieszczać informacje które pomogą mi w nauce HTML,
+          CSS, JS
+        </p>
+      </section>
+      <section>
+        <h2 class="heading-style">NOTATKI DO NAUKI</h2>
+        <article>
+          <h3>Struktura frontendu</h3>
 
-            <h2 class="heading-style">Notatki z kursu</h2>
-            <p>Tutaj będę starał umieszczać informacje które pomogą mi w nauce HTML, CSS, JS</p>
-        </section>
-        <section>
-
-            <h2 class="heading-style"> NOTATKI DO NAUKI </h2>
-            <article>
-                <h3>Struktura frontendu</h3>
-
-                <p> 0-Treść 1-HTML który jest warstwą Semantyczną 2-CSS odpowiada za warstwy prezentacji 3-JS jest
-                    warstwą
-                    która
-                    odpowiada za interakcje na stronie
-                    Przydatne skróty klawiszowe
-                    Ctrl+Shift+P jest wyszukiwarką w której znajduje się format document
-                    Shift+Alt+F formatuje dokument
-                    Shift+Strzałki mogę zaznaczać tekst
-                    !+Tab tworzy strukturę HTML
-                    Ctrl+x wycina
-                </p>
-            </article>
-            <article>
-                <h3>Znaczniki HTML </h3>
-                <P> .Main.> główna część dokumentu ,
-                    .section.> sekcja dokumentu , .article.> samodzielna treść,
-                    .header.> nagłówek dokumentu / sekcji / artykułu , .footer.> stopka, .h1-h6.> nagłówki, .p.>
-                    paragraf
-
-                </P>
-            </article>
-            <article>
-                <h3>Style CSS 123</h3>
-                <p>Budowa reguły CSS selektor{właściwość:wartość;}
-
-                </p>
-            </article>
-
-
-        </section>
-
-
-
-
-
+          <p>
+            0-Treść 1-HTML który jest warstwą Semantyczną 2-CSS odpowiada za
+            warstwy prezentacji 3-JS jest warstwą która odpowiada za interakcje
+            na stronie Przydatne skróty klawiszowe Ctrl+Shift+P jest
+            wyszukiwarką w której znajduje się format document Shift+Alt+F
+            formatuje dokument Shift+Strzałki mogę zaznaczać tekst !+Tab tworzy
+            strukturę HTML Ctrl+x wycina
+          </p>
+        </article>
+        <article>
+          <h3>Znaczniki HTML</h3>
+          <p>
+            .Main.> główna część dokumentu , .section.> sekcja dokumentu ,
+            .article.> samodzielna treść, .header.> nagłówek dokumentu / sekcji
+            / artykułu , .footer.> stopka, .h1-h6.> nagłówki, .p.> paragraf
+          </p>
+        </article>
+        <article>
+          <h3>Style CSS 123</h3>
+          <p>Budowa reguły CSS selektor{właściwość:wartość;}</p>
+        </article>
+      </section>
     </main>
-    <footer >
-        Strona należy do Szymcio Company <a class="footer-links" href="#Kodzik">Tutaj klepie kodzik</a>
+    <footer>
+      Strona należy do Szymcio Company
+      <a class="footer-links" href="#Kodzik">Tutaj klepie kodzik</a>
     </footer>
     <script src="js.js"></script>
-</body>
-
+  </body>
 </html>
