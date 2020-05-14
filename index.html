@@ -9,7 +9,7 @@
   </head>
 
   <body>
-    <header>
+    <header id="top">
       <nav class="navigation">
         <a class="navigation__link" href="index.html">Strona Główna</a>
         <a class="navigation__link" href="nauka-html.html">Nauka HTML</a>
@@ -19,42 +19,41 @@
     </header>
 
     <main>
-      <header id="top">
-        <h1 class="heading-style">Szymon Staroń Uczy się klepać kodzik</h1>
+      <header >
+        <h1 class="title__web" >Szymon Staroń Uczy się klepać kodzik</h1>
       </header>
-      <section>
-        <h2 class="heading-style">Lorem</h2>
-        <img src="sowa.jpg" alt="Sowa" />
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt
-          saepe ab beatae, non perferendis vero?<br />
+      <section class="article">
+        <h2 class="article__title" >Sowa i tyle</h2>
+        <img class=" article__photo" src="sowa.jpg" alt="Sowa" />
+        <p class="article__text">
+          Pisze tekst o sowie i nikt złego słowa nie powie.<br />
           Illo aliquid itaque consectetur id facere dicta nesciunt officia modi
           beatae laboriosam pariatur, adipisci voluptate!
         </p>
       </section>
-      <section>
-        <h2 class="heading-style">Lorem Lorem</h2>
-        <article>
-          <h3>Lorem frontendu</h3>
-          <p>
+      <section class="section__news">
+        <h2 class="article__title">Lorem Lorem</h2>
+        <article class="article__style">
+          <h3 class="article__title">Lorem frontendu</h3>
+          <p class="article__text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <br />Praesentium voluptates reiciendis nemo, obcaecati quos cum non
             quo porro alias saepe. Iusto, blanditiis soluta necessitatibus
             architecto consectetur molestiae illum perspiciatis deleniti.
           </p>
         </article>
-        <article>
-          <h3>Lorem Lorem Lorem</h3>
-          <p>
+        <article class="article__style">
+          <h3 class="article__title">Lorem Lorem Lorem</h3>
+          <p class="article__text" >
             Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br />
             Nisi, sapiente? Architecto ipsa incidunt soluta asperiores dolores,
             inventore pariatur praesentium qui maxime nesciunt minima, sint
             accusamus quaerat distinctio, laborum quidem alias!
           </p>
         </article>
-        <article>
-          <h3>Lorem Lorem Lorem</h3>
-          <p>
+        <article class="article__style">
+          <h3 class="article__title">Lorem Lorem Lorem</h3>
+          <p class="article__text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.<br />
             Consequuntur necessitatibus alias corrupti recusandae possimus,
             corporis asperiores accusamus. <br />Dolor neque temporibus
@@ -64,10 +63,10 @@
         </article>
       </section>
     </main>
-    <footer>
+    <footer class="footer__style">
       <p>
         Strona należy do Szymcio Company
-        <a class="footer-links" href="#top">Wróć na góre </a>
+        <a href="#top">Wróć na góre </a>
       </p>
     </footer>
     <script src="js.js"></script>

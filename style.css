@@ -1,45 +1,108 @@
-.heading-style{
-    color: #F85E00;
+.navigation {
+  text-align: center;
+  background: #ffc971;
+  padding: 30px;
+  border-radius: 25px;
+  max-width: 800px;
+  min-width: 800px;
+  border-style: solid;
+  border-width: 8px;
+  border-color: #cc5803;
+  z-index: 1;
+  top: 0;
+  margin: auto;
 }
 
-body {
-    background-color: white ;
-
+.navigation__link {
+  color: #cc5803;
+  margin-right: 30px;
+  padding: 9px;
+  border-radius: 7px;
+  background-color: #ffb627;
+  border-style: solid;
+  border-color: #cc5803;
 }
 
-#Kodzik {
-    background-color: #FFD29D;
+.title__web {
+  color: #cc5803;
+  background-color: #ffc971;
+  text-align: center;
+  padding: 30px;
+  border-width: 2px;
+  border-radius: 4px;
+  border-color: #cc5803;
+  border-style: solid;
+  max-width: 800px;
+  min-width: 800px;
+  margin: auto;
+  margin-top: 30px;
+}
+.section__news {
+  border-radius: 30px;
+  border-style: solid;
+  border-color: #cc5803;
+  background-color: #ffc971;
+
+  margin-top: 3px;
+  padding: 30px;
+  max-width: 800px;
+  min-width: 800px;
+  margin: auto;
 }
 
-.footer-links{
-    color: #d60768 ;
-    
+.article {
+  max-width: 800px;
+  min-width: 800px;
+  padding: 30px;
+  background-color: #ffc971;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 50px;
+  border-width: 2px;
+  border-color: #cc5803;
+  border-style: solid;
 }
 
-nav a {
-    color: black;
+.article__style {
+  max-width: 700px;
+  min-width: 700px;
+  background-color: #ffc971;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 50px;
+  border-width: 2px;
+  border-color: #cc5803;
+  border-style: solid;
 }
 
-.navigation{
-    text-align: center;
-   background: #FFC971;
-   padding: 16px;
-    border-radius: 25px;
-   max-width: 600px;
-   min-width: 600px;
-   margin:auto;
-   border-style: solid;
-   border-width: 8px;
-   border-color: #CC5803;
+.article__title {
+  text-align: center;
+  color: #cc5803;
+  font-size: 33px;
+  margin-top: 3px;
 }
 
-.navigation__link{
-   
-    color: #CC5803;
-    margin-right: 30px;
-    padding: 9px;
-    border-radius: 7px;
-    background-color: #FFB627;
-    border-style: solid;
-    border-color: #CC5803;    
+.article__photo {
+  border-radius: 50vh;
+  border-style: inherit;
+  border-color: #cc5803;
+  display: block;
+  margin: auto;
+}
+.article__text {
+  padding: 12px 4px;
+  text-align: center;
+}
+.footer__style {
+  max-width: 800px;
+  min-width: 800px;
+  border-radius: 40px;
+  border-color: sienna;
+  border-style: solid;
+  background-color: #ffc971;
+  margin: auto;
+  bottom: 0;
+  margin-top: 30px;
+  padding: 30px;
 }
