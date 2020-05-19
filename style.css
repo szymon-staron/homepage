@@ -1,3 +1,40 @@
+.main{
+  max-width: 1000px;
+  margin-top: 7%;
+  text-align: center;
+}
+
+
+.navigation{
+  background-color:rgba(23, 23, 23, 0.23);
+  position: fixed;
+  width: 100%;
+  
+  top: 0vh;
+  padding: 30px 0px;
+  margin-bottom: 30px;
+  
+
+
+}
+
+
+
+.navigation__link{
+margin:0px 30px;
+color: hotpink;
+
+
+  
+  
+  
+}
+
+
+
+
+
+/*
 .navigation {
   text-align: center;
   background: #ffc971;
