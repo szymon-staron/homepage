@@ -1,35 +1,72 @@
+body{background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1)0%, rgba(148,187,233,1)100%);
+}
+
+
 .main{
   max-width: 1000px;
+  margin: auto;
   margin-top: 7%;
-  text-align: center;
 }
 
 
 .navigation{
-  background-color:rgba(23, 23, 23, 0.23);
+  background-color:rgba(103, 109, 165, 0.849);
   position: fixed;
   width: 100%;
-  
-  top: 0vh;
+   top: 0vh;
   padding: 30px 0px;
   margin-bottom: 30px;
-  
-
-
-}
+  }
+  .article__text{
+    text-align: center;
+    font-size: larger;
+  }
 
 
 
 .navigation__link{
 margin:0px 30px;
 color: hotpink;
+font-size: large;
+
+
+}
 
 
   
-  
+
+
+.article{
+  margin: auto;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 16px;
+  border-radius: 16px;
+  border-style: solid;
   
 }
 
+.article__title{
+  color: aqua;
+  text-align: center;
+  font-size: x-large;
+}
+
+.title__web{
+  font-size: xx-large;
+  text-align: center;
+}
+
+.article__photo{
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+.section__title{
+  font-size: xx-large;
+  text-align: center;
+}
 
 
 
