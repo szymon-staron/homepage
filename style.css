@@ -1,12 +1,24 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
 body{background: rgb(238,174,202);
 background: radial-gradient(circle, rgba(238,174,202,1)0%, rgba(148,187,233,1)100%);
+
 }
 
 
 .main{
+
   max-width: 1000px;
-  margin: auto;
-  margin-top: 7%;
+  margin-top: 80px;
 }
 
 
@@ -17,6 +29,8 @@ background: radial-gradient(circle, rgba(238,174,202,1)0%, rgba(148,187,233,1)10
    top: 0vh;
   padding: 30px 0px;
   margin-bottom: 30px;
+  display: flex;
+  justify-content: space-around;
   }
   .article__text{
     text-align: center;
@@ -26,7 +40,6 @@ background: radial-gradient(circle, rgba(238,174,202,1)0%, rgba(148,187,233,1)10
 
 
 .navigation__link{
-margin:0px 30px;
 color: hotpink;
 font-size: large;
 
@@ -38,6 +51,7 @@ font-size: large;
 
 
 .article{
+  
   margin: auto;
   display: inline-block;
   margin-top: 10px;
@@ -64,11 +78,25 @@ font-size: large;
   border-radius: 50%;
 }
 .section__title{
+grid-area: h2;
+
   font-size: xx-large;
   text-align: center;
 }
 
+.section{
+  display: grid;
+  width: 100%;
+  grid-column: 1fr 1fr 1fr;
+ grid-template-areas: "h2 h2 h2"
+  ;
+  
+  column-gap: 16px;
+  row-gap: 16px;
+}
 
+
+  
 
 
 /*
