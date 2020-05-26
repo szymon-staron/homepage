@@ -1,3 +1,84 @@
+const name = "Maciek";
+const age = 32;
+
+console.log(name);
+console.log(age);
+
+console.log(`Cześć robaku masz na imie ${name} i twój wiek to ${age} lata`);
+
+function calculate(myNumber) {
+  console.log(` dostałem ${myNumber}`);
+  myNumber = myNumber * 7;
+  console.log(myNumber);
+  return myNumber;
+}
+
+const myResult = calculate(5);
+
+console.log(myResult);
+
+function greet(name, age) {
+  console.log(`Cześć robaku masz na imie ${name} i twój wiek to ${age} lata`);
+}
+
+greet("maciek", age);
+
+const greetNew = (name, age) => {
+  console.log(`Cześć robaku masz na imie ${name} i twój wiek to ${age} lata`);
+};
+greetNew(name, age);
+
+function createContent(querySelectorContent, content) {
+  const element = document.querySelector(querySelectorContent);
+  element.innerHTML = content;
+}
+
+createContent(".title__web--js", "Hejka stulejka ");
+
+function calculateClassic(myNumber) {
+  console.log(` dostałem ${myNumber}`);
+  myNumber = myNumber * 7;
+  console.log(myNumber);
+  return myNumber;
+}
+
+const myResultClassic = calculateClassic(5);
+
+console.log(myResult);
+
+const caltulateArrow = (myNumber) => myNumber * 7;
+
+const myResultArrow = caltulateArrow(3);
+console.log(myResultArrow);
+
+
+
+
+
+
+
+const deathStar ={
+  diameter : 120000,
+  fire: (target) => {
+    console.log(`${target} destroyed 🔥`)
+  },
+  isOperating: true,
+  name: 'Death Star',
+  levels: 357,
+  population: 10000,
+  isLightOn: true,
+  commander: {
+    name:'Darth Vader',
+    age: 44,
+  }
+  
+}
+console.log(deathStar.name)
+console.log(deathStar.commander.age)
+
+deathStar.fire('Madziar')
+console.log(deathStar['name'])
+
 //const name = 'Szymon';
 //const lastName = 'Staroń';
 //const age = 23;
@@ -8,62 +89,57 @@
 
 //heading.innerHTML='Mój kot frytka jest lepsza  ';
 
-
 //function cal(myNumber){
 //    console.log(`Dostałem ${myNumber}`);
- //   return myNumber*7
+//   return myNumber*7
 //}
 
 //const myResult = cal(age);
 
 //console.log(myResult);
-const ship={
-    size: 7,
-    name: 'piracik',
-    sail: 3,
-    crew: 14,
-    capitan:{
-        name:'Czarnobrody',
-        age:30
-    }
+//* const ship={
+// size: 7,
+//  name: 'piracik',
+//  sail: 3,
+//   crew: 14,
+//    capitan:{
+//  name:'Czarnobrody',
+//   age:30
+// }
 
-}
+//}
 
+//function hello(name){
+// console.log(`Cześć ${name}`);
+//return name
+//}
 
-function hello(name){
-    console.log(`Cześć ${name}`);
-return name
-}
+//const name="Bartek";
 
+//let myName = hello(name);
 
-const name="Bartek";
+//const bye =(name) =>{
+// console.log(`Papa ${name}`);
+//return name;
+//}
 
-let myName = hello(name);
-
-const bye =(name) =>{
-    console.log(`Papa ${name}`);
-return name;
-}
-
- myName = bye(name);
-
-
+//myName = bye(name);
 
 //const humanOne = {
-  //  name:'Stefan',
-    //age:23,
-    //address:{
-     //   street: 'Wiśniowa',
-       // city: 'Warszawa',
-   // }
+//  name:'Stefan',
+//age:23,
+//address:{
+//   street: 'Wiśniowa',
+// city: 'Warszawa',
+// }
 //}
 
 //const humanTwo = {
-  //  name:'Franek',
-    //age:30,
-    //address:humanOne.address.street,
-    //city:'Warszawa',
-    //}
+//  name:'Franek',
+//age:30,
+//address:humanOne.address.street,
+//city:'Warszawa',
+//}
 //humanOne.address.street= 'Czlek';
-  //  console.log(humanTwo);
-    //console.log(humanOne);
+//  console.log(humanTwo);
+//console.log(humanOne);
