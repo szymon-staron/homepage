@@ -31,6 +31,9 @@ body {
   display: flex;
   justify-content: space-around;
 }
+.navigation__link:hover{
+  color:blue;
+}
 .article__text {
   text-align: center;
   font-size: larger;
