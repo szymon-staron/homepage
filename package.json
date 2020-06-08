@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/szymon-staron/homepage/issues"
   },
-  "homepage": "https://github.com/szymon-staron/homepage#readme"
+  "homepage": "https://github.com/szymon-staron/homepage#readme",
+  "devDependencies": {
+    "cowsay": "^1.4.0"
+  },
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
 }
