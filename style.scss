@@ -1,0 +1,156 @@
+html {
+    box-sizing: border-box;
+    }
+    *, *:before, *:after {
+    box-sizing: inherit;
+    }
+  
+  body {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(
+      circle,
+      rgba(238, 174, 202, 1) 0%,
+      rgba(148, 187, 233, 1) 100%
+    );
+  }
+  
+  .main {
+    max-width: 1000px;
+    margin-top: 80px;
+    margin: 80px auto;
+  }
+  
+  .navigation {
+    background-color: rgba(103, 109, 165, 0.5);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 30px 0px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .navigation__link:hover{
+    color:blue;
+  }
+  .article__text {
+    text-align: center;
+    font-size: larger;
+  }
+  
+  .navigation__link {
+    color: hotpink;
+    font-size: large;
+  }
+  
+  .article {
+    margin: auto;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 16px;
+    border-radius: 16px;
+    border-style: solid;
+  }
+  
+  .article__title {
+    color: aqua;
+    text-align: center;
+    font-size: x-large;
+  }
+  
+  .title__web {
+    font-size: xx-large;
+    text-align: center;
+  }
+  
+  .article__photo {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+  }
+  .section__title {
+    grid-area: h2;
+  
+    font-size: xx-large;
+    text-align: center;
+  }
+  
+  .section {
+    display: grid;
+    width: 100%;
+    grid-column: 1fr 1fr 1fr;
+    grid-template-areas: "h2 h2 h2";
+    column-gap: 16px;
+    row-gap: 16px;
+  }
+  
+  .hamburger{
+    display: none;
+  }
+  
+  .article__title::before{
+    content:"";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    background: red;
+  }
+  
+  @media (max-width: 768px) {
+    .hamburger{
+      background: none;
+      border-style: none;
+      position: absolute;
+      top:16px;
+      right: 16px;
+      display: block;
+    
+    }
+  
+    .navigation {
+      background-color: rgba(103, 109, 165, 1);
+      width: 100%;
+      min-height: 60px;
+      padding: 10px;
+      width: 100%;
+      display: none;
+      
+    }
+  
+    .navigation--open{
+      display: block;
+    }
+    
+    .navigation__link {
+      margin-bottom: 16px;
+    display: block;
+    }
+    .header__navigation{
+      background-color: rgba(103, 109, 165, 0.849);
+      min-width: 100%;
+      min-height: 60px;
+      
+    position: fixed;
+      top: 0;
+      left: 0;
+    }
+      
+    
+    .article__photo {
+      display: block;
+      max-width: 100%;
+    }
+   
+  
+    .section {
+      display: grid;
+      max-width: 100%;
+      grid-column: 1fr;
+      grid-template-areas: "h2";
+      column-gap: 16px;
+      row-gap: 16px;
+    }
+  }
+  

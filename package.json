@@ -4,6 +4,8 @@
   "description": "",
   "main": "js.js",
   "scripts": {
+   "scss":"npx node-sass -w style.scss style.css",
+
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
