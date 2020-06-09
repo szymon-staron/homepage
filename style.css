@@ -1,7 +1,9 @@
 html {
   box-sizing: border-box; }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit; }
 
 body {
@@ -23,17 +25,11 @@ body {
   margin-bottom: 30px;
   display: flex;
   justify-content: space-around; }
-
-.navigation__link:hover {
-  color: blue; }
-
-.article__text {
-  text-align: center;
-  font-size: larger; }
-
-.navigation__link {
-  color: hotpink;
-  font-size: large; }
+  .navigation__link {
+    color: hotpink;
+    font-size: large; }
+    .navigation__link:hover {
+      color: #316bb8; }
 
 .article {
   margin: auto;
@@ -42,23 +38,26 @@ body {
   padding: 16px;
   border-radius: 16px;
   border-style: solid; }
-
-.article__title {
-  color: aqua;
-  text-align: center;
-  font-size: x-large; }
+  .article__title {
+    color: aqua;
+    text-align: center;
+    font-size: x-large; }
+    .article__title::before {
+      content: "";
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      border-radius: 50px;
+      background: #5c10e7; }
+  .article__photo {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%; }
+  .article__text {
+    text-align: center;
+    font-size: larger; }
 
 .title__web {
-  font-size: xx-large;
-  text-align: center; }
-
-.article__photo {
-  display: block;
-  margin: 0 auto;
-  border-radius: 50%; }
-
-.section__title {
-  grid-area: h2;
   font-size: xx-large;
   text-align: center; }
 
@@ -69,17 +68,13 @@ body {
   grid-template-areas: "h2 h2 h2";
   column-gap: 16px;
   row-gap: 16px; }
+  .section__title {
+    grid-area: h2;
+    font-size: xx-large;
+    text-align: center; }
 
 .hamburger {
   display: none; }
-
-.article__title::before {
-  content: "";
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  border-radius: 50px;
-  background: red; }
 
 @media (max-width: 768px) {
   .hamburger {
@@ -96,11 +91,11 @@ body {
     padding: 10px;
     width: 100%;
     display: none; }
-  .navigation--open {
-    display: block; }
-  .navigation__link {
-    margin-bottom: 16px;
-    display: block; }
+    .navigation__link {
+      margin-bottom: 16px;
+      display: block; }
+    .navigation--open {
+      display: block; }
   .header__navigation {
     background-color: rgba(103, 109, 165, 0.849);
     min-width: 100%;
